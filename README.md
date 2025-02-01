@@ -6,11 +6,11 @@ The code has been tested running under Python 3.6. The required packages are as 
 * numpy == 1.24.4
 * scipy == 1.10.1
 ## Data
-Full data could be download from DropBox: [Baby/Sports/Clothing](https://www.dropbox.com/scl/fo/ok1bso1v2gral5i3bq39p/h?rlkey=qtph647lid3d16mulv5rwvje6&dl=0)  
+Full data could be downloaded from DropBox: [Baby/Sports/Clothing](https://www.dropbox.com/scl/fo/ok1bso1v2gral5i3bq39p/h?rlkey=qtph647lid3d16mulv5rwvje6&dl=0)  
 
 ## Dataset
 
-We provide two processed datasets: Baby, Sports and Clothing.
+We provide two processed datasets: Baby, Sports, and Clothing.
 
 | #Dataset   | #Interactions | #Users|#Items|Sparsity|
 |  ----  | ----  | ----  |----  |----  |
@@ -20,7 +20,7 @@ We provide two processed datasets: Baby, Sports and Clothing.
 
 ## Example to Run the Codes
 
-The instruction of commands has been clearly stated in the codes.
+The instructions for the commands are clearly stated in the codes.
 
 * Baby dataset
 ```
@@ -51,7 +51,6 @@ The released code consists of the following files.
     --baby
     --clothing
     --sports
---log
 --utils
     --configurator
     --data_loader
