@@ -23,11 +23,8 @@ def train(self, epoch_idx):
             return loss, torch.tensor(0.0)
 
         loss.backward()
-        # clip_grad_norm_(self.model.parameters(), max_norm=1, norm_type=2) #梯度裁剪
-        self.optimizer.step()  # 更新模型参数
+        self.optimizer.step() 
 
-        # bar.update(self.batch_size)  # 进度条
-        # num_bar += self.batch_size  # 进度条
         step += 1.0
         sum_loss += loss
         sum_bpr_loss += bpr_loss
