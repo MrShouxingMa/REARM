@@ -10,7 +10,7 @@ Full data could be downloaded from DropBox: [Baby/Sports/Clothing](https://www.d
 
 ## Dataset
 
-We provide two processed datasets: Baby, Sports, and Clothing.
+We provide three processed datasets: Baby, Sports, and Clothing.
 
 | #Dataset   | #Interactions | #Users|#Items|Sparsity|
 |  ----  | ----  | ----  |----  |----  |
