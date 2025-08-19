@@ -1,3 +1,13 @@
+
+# REARM (MM'25)
+This is our Pytorch implementation for "Refining Contrastive Learning and Homography Relations for Multi-Modal Recommendation":  
+> Shouxing Ma, Yawen Zeng, Shiqing Wu, and Guandong Xu. 2025. Refining Contrastive Learning and Homography Relations for Multi-Modal Recommendation. In ACM MM`25, Dublin, Ireland, Oct. 27-31, 2025
+
+## Overview of REARM
+<p>
+<img src="./images/model.pdf" width="800">
+</p>
+
 ## Environment Requirement
 
 The code has been tested running under Python 3.6. The required packages are as follows:
