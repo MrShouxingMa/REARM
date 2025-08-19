@@ -4,8 +4,13 @@ This is our Pytorch implementation for "Refining Contrastive Learning and Homogr
 > Shouxing Ma, Yawen Zeng, Shiqing Wu, and Guandong Xu. 2025. Refining Contrastive Learning and Homography Relations for Multi-Modal Recommendation. In ACM MM`25, Dublin, Ireland, Oct. 27-31, 2025
 
 ## Overview of REARM
+We propose a novel multi-modal contrastive recommendation framework (REARM), which preserves recommendation-relevant modal-shared and valuable modal-unique information through meta-network and orthogonal constraint strategies, respectively.
+
+We jointly incorporate co-occurrence and similarity graphs of users and items, allowing more effective capturing of the underlying structural patterns and semantic (interest) relationships, thereby enhancing recommendation performance.
+
+Extensive experiments are conducted on three publicly available datasets to evaluate our proposed method. The experimental results show that our proposed framework outperforms several state-of-the-art recommendation baselines.
 <p>
-<img src="./images/model.jpg" width="800">
+<img src="./images/model.jpg" >
 </p>
 
 ## Environment Requirement
@@ -50,10 +55,6 @@ python main.py --dataset='clothing' --num_layer=4  --reg_weight=0.00001 --rank=3
 ```
 
 
-
-
-
-
 ## REARM
 The released code consists of the following files.
 ```
@@ -73,3 +74,18 @@ The released code consists of the following files.
 --model
 --trainer
 ```
+
+## Citation
+If you want to use our codes and datasets in your research, please cite:
+
+``` 
+@inproceedings{REARM,
+  title     = {Refining Contrastive Learning and Homography Relations for Multi-Modal Recommendation,
+  author    = {Ma, Shouxing and 
+               Zeng, Yawen and 
+               Wu, Shiqing and 
+               Xu, Guandong},
+  booktitle = {Proceedings of the 33th ACM International Conference on Multimedia},
+  year      = {2025}
+}
+``` 
