@@ -5,7 +5,7 @@ This is our Pytorch implementation for "Refining Contrastive Learning and Homogr
 
 ## Overview of REARM
 <p>
-<img src="./images/model.pdf" width="800">
+<img src="./images/model.jpg" width="800">
 </p>
 
 ## Environment Requirement
