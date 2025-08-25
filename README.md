@@ -21,8 +21,10 @@ The code has been tested running under Python 3.6. The required packages are as 
 * numpy == 1.24.4
 * scipy == 1.10.1
 ## Data
-Full data could be downloaded from DropBox: [Baby/Sports/Clothing](https://www.dropbox.com/scl/fo/ok1bso1v2gral5i3bq39p/h?rlkey=qtph647lid3d16mulv5rwvje6&dl=0)  
-
+Full data could be downloaded from DropBox ([Baby/Sports/Clothing](https://www.dropbox.com/scl/fo/ok1bso1v2gral5i3bq39p/h?rlkey=qtph647lid3d16mulv5rwvje6&dl=0)) or huggingfac: 
+* [Baby](https://huggingface.co/datasets/MrShouxingMa/Baby/tree/main)  
+* [Sports](https://huggingface.co/datasets/MrShouxingMa/Sports/tree/main)  
+* [Clothing](https://huggingface.co/datasets/MrShouxingMa/Clothing/tree/main)  
 ## Dataset
 
 We provide three processed datasets: Baby, Sports, and Clothing.
