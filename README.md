@@ -81,13 +81,11 @@ The released code consists of the following files.
 If you want to use our codes and datasets in your research, please cite:
 
 ``` 
-@inproceedings{REARM,
-  title     = {Refining Contrastive Learning and Homography Relations for Multi-Modal Recommendation,
-  author    = {Ma, Shouxing and 
-               Zeng, Yawen and 
-               Wu, Shiqing and 
-               Xu, Guandong},
-  booktitle = {Proceedings of the 33th ACM International Conference on Multimedia},
-  year      = {2025}
+@inproceedings{ma2025refining,
+  title={Refining Contrastive Learning and Homography Relations for Multi-Modal Recommendation},
+  author={Ma, Shouxing and Zeng, Yawen and Wu, Shiqing and Xu, Guandong},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={6316--6324},
+  year={2025}
 }
 ``` 
