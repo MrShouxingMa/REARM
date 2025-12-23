@@ -212,8 +212,8 @@ class REARM(nn.Module):
         mul_vt_cl_loss = self.cl_loss_weight * (i_mul_vt_cl_loss + u_mul_vt_cl_loss)
 
         # Modal-unique orthogonal constraint
-        mul_i_diff_loss = cal_diff_loss(self.fin_feat_prefer, user_tensor, self.feat_embed_dim)
-        mul_u_diff_loss = cal_diff_loss(self.fin_feat_prefer, item_tensor, self.feat_embed_dim)
+        mul_u_diff_loss = cal_diff_loss(self.fin_feat_prefer, user_tensor, self.feat_embed_dim)
+        mul_i_diff_loss = cal_diff_loss(self.fin_feat_prefer, item_tensor, self.feat_embed_dim)
         mul_diff_loss = self.diff_loss_weight * (mul_i_diff_loss + mul_u_diff_loss)
 
         reg_loss = 0  # Realized in AdamW
@@ -277,3 +277,4 @@ class MLP(torch.nn.Module):
         x = self.linear_out(x)
         x = F.normalize(x, p=2, dim=-1)
         return x
+
