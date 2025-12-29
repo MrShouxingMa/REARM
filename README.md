@@ -1,6 +1,6 @@
 
 # REARM (MM'25)
-This is our Pytorch implementation for "Refining Contrastive Learning and Homography Relations for Multi-Modal Recommendation":  
+This is our Pytorch implementation for "[Refining Contrastive Learning and Homography Relations for Multi-Modal Recommendation](https://dl.acm.org/doi/10.1145/3746027.3755779)":  
 > Shouxing Ma, Yawen Zeng, Shiqing Wu, and Guandong Xu. 2025. Refining Contrastive Learning and Homography Relations for Multi-Modal Recommendation. In ACM MM`25, Dublin, Ireland, Oct. 27-31, 2025
 
 ## Overview of REARM
