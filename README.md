@@ -13,13 +13,21 @@ Extensive experiments are conducted on three publicly available datasets to eval
 <img src="./images/model.jpg" >
 </p>
 
-## Environment Requirement
+## Quick Setup and Environment Requirement 
+
+Create a virtual environment and install the dependencies:
+```
+conda env create -f environment_build.yml
+conda activate rearm
+```
 
 The code has been tested running under Python 3.6. The required packages are as follows:
 
 * pytorch == 1.13.0
 * numpy == 1.24.4
 * scipy == 1.10.1
+
+
 ## Data
 Full data could be downloaded from DropBox ([Baby/Sports/Clothing](https://www.dropbox.com/scl/fo/ok1bso1v2gral5i3bq39p/h?rlkey=qtph647lid3d16mulv5rwvje6&dl=0)) or huggingfac: 
 * [Baby](https://huggingface.co/datasets/MrShouxingMa/Baby/tree/main)  
@@ -75,6 +83,7 @@ The released code consists of the following files.
 --main
 --model
 --trainer
+--environment_build
 ```
 
 ## Citation
