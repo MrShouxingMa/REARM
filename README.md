@@ -21,7 +21,7 @@ conda env create -f environment_build.yml
 conda activate rearm
 ```
 
-The code has been tested running under Python 3.6. The required packages are as follows:
+The code has been tested running under Python 3.8. The required packages are as follows:
 
 * pytorch == 1.13.0
 * numpy == 1.24.4
