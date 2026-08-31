@@ -15,7 +15,7 @@ def parse_args():
                         help='Choose some from {"Precision", "Recall", "NDCG", "MAP"}')
     parser.add_argument('--topk', type=list, default=[10, 20], help='Metrics scale')
     parser.add_argument('--embedding_dim', type=int, default=64, help='Latent dimension 64.')
-    parser.add_argument('--num_epoch', type=int, default=2000, help='Epoch number.')
+    parser.add_argument('--num_epoch', type=int, default=2000, help='Epoch number, ensure sufficient model convergence.')
     parser.add_argument('--num_workers', type=int, default=8, help='Workers number.')
     parser.add_argument('--stopping_step', type=int, default=20, help='early stopping strategy.')
     parser.add_argument('--valid_metric', type=str, default="Recall@20", help='valid metric')
